@@ -628,7 +628,7 @@ a:hover {
 }
 
 .dishes-text {
-   padding-left: 90px;
+   padding-left: 5rem;
 }
 
 /*=====  End of Special Dishes  ======*/
@@ -682,7 +682,6 @@ a:hover {
 }
 
 @media (max-width: 767px) {
-   .hero-left,
    .hero-carousel .owl-item img {
       height: 600px;
    }
