@@ -127,7 +127,12 @@ a:hover {
   color: #fdb94c;
 }
 .black-color {
-  color: #000;
+  color: #000 !important;
+}
+.spacer {
+   font-weight: 100;
+   font-size: 0.7em;
+   color: #000!important;
 }
 .usp li span {
   color: #000;
