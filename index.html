@@ -148,7 +148,7 @@
             <nav id="navbar-header" class="navbar navbar-expand-lg">
                 <div class="container">
                     <a class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile" href="/">
-                        <img src="img/logo_hummus.jpg" alt="abvsdvsd">
+                        <img class="header_image" src="img/logo_hummus.jpg" alt="abvsdvsd">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -168,24 +168,37 @@
                             <div class="d-flex flex-lg-row flex-column mr-2">
                                 <div class="d-flex flex-lg-row flex-column">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#gtco-welcome">About</a>
+                                        <a class="nav-link close_navBar" href="#gtco-welcome">About</a>
                                     </li>
                                 </div>
-                                <li class="nav-item active mr-2">
-                                    <a class="nav-link" href="#gtco-menu">Menu</a>
+                               <!--  <li class="nav-item dropdown mr-2">
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                        <a class="dropdown-item close_navBar" href="#gtco-menu">View Menu</a>
+                                        <a class="dropdown-item close_navBar" href="#sd-2">Download Menu</a>
+                                    </div>
+                                </li> -->
+                                <li class="nav-item dropdown mr-2">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Menu
+                                    </a>
+                                    <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item close_navBar" href="#gtco-menu">View Menu</a>
+                                        <a class="dropdown-item close_navBar" href="menu.pdf" download="Menu_HummusNest" target="_blank">Downlaod Menu</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item dropdown mr-2">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Specials
                                     </a>
                                     <div class="dropdown-menu " aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#sd-1">Makhni Hummus Meal</a>
-                                        <a class="dropdown-item" href="#sd2">Classic Hummus Wrap</a>
+                                        <a class="dropdown-item close_navBar" href="#sd-1">Makhni Hummus Meal</a>
+                                        <a class="dropdown-item close_navBar" href="#sd-2">Classic Hummus Wrap</a>
                                     </div>
                                 </li>
                                 <li class="nav-item mr-2">
-                                    <a class="nav-link btn btn-primary btn-shadow btn-lg pl-2 pr-2" href="#gtco-reservation"
+                                    <a class="nav-link btn btn-primary btn-shadow btn-lg pl-2 pr-2 close_navBar" href="#gtco-reservation"
                                         role="button">Bulk Orders</a>
                                 </li>
     
@@ -365,9 +378,7 @@
                                 <h2 class="special-number">01.</h2>
                                 <div class="dishes-text">
                                     <h3><span>Meal</span><br>Makhni Hummus</h3>
-                                    <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, ea
-                                        vero alias perferendis quas animi doloribus voluptates. Atque explicabo ea nesciunt
-                                        provident libero qui eum, corporis esse quos excepturi soluta?</p>
+                                    <p class="pt-3">In house exclusively  invented version of Hummus which is an Indian Lebanese fusion of Makhani gravy and classic Hummus. </p>
                                     <h3 class="special-dishes-price">
                                         <div class="pt-2">
                                             <a href="https://www.zomato.com/bhopal/hummus-nest-hoshangabad-road/order"
@@ -395,10 +406,8 @@
                             <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center order-1 order-md-2 py-5">
                                 <h2 class="special-number">02.</h2>
                                 <div class="dishes-text">
-                                    <h3><span>Wrap</span><br>Classic Hummus</h3>
-                                    <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis,
-                                        accusamus culpa quam amet ipsam odit ea doloremque accusantium quo, itaque possimus
-                                        eius. In a quis quibusdam omnis atque vero dolores!</p>
+                                    <h3><span>Wrap</span><br>Cajun Spiced Falafel</h3>
+                                    <p class="pt-3">This wrap has been exclusively invented by our founder. It is basically a tortilla wrap with the stuffing of veggies  mint falafels dipped in the cream & onion cheese sauce & Cajun spiced mayonese. </p>
                                     <h3 class="special-dishes-price">
                                         <div class="pt-2">
                                             <a href="https://www.zomato.com/bhopal/hummus-nest-hoshangabad-road/order"
@@ -457,7 +466,7 @@
                                                     </a></h4>
                                             </div>
                                         </div>
-                                        <p>Chipotle | Classic | Piri Piri</p>
+                                        <p>Chipotle | Classic | Piri Piri |<br/> Cajun Spiced Falafel</p>
                                     </div>
                                 </div>
                                 <div class="heading-menu pt-4">
@@ -544,7 +553,7 @@
                                                     </a></h4>
                                             </div>
                                         </div>
-                                        <p>Chipotle | Makhni | Classic | Beetroot | Piri Piri</p>
+                                        <p>Chipotle | Classic | Beetroot | Piri Piri</p>
                                     </div>
                                 </div>
     
@@ -677,37 +686,37 @@
                                         Peri-er and also the falafal balls should be crispier. I can say one of the best in
                                         Bhopal. Liked the packaging and portion was also good except for the pita bread. I
                                         this you can do 6 pieces of Pita for this price. Thank you</p>
-                                    <p class="testi-author">Pankaj Gupta</p>
-                                    <p class="testi-desc">Zomato</p>
+                                    <p class="testi-author text-center">Pankaj Gupta</p>
+                                    <p class="testi-desc text-center">Zomato</p>
                                 </div>
                                 <div class="testi-item">
                                     <i class="testi-icon fa fa-3x fa-quote-left"></i>
                                     <p class="testi-text">loved it! glad to have the most authentic taste of this middle
                                         eastern delicacy in our city.</p>
-                                    <p class="testi-author">Bhāskar Indrakanti</p>
-                                    <p class="testi-desc">Zomato</p>
+                                    <p class="testi-author text-center">Bhāskar Indrakanti</p>
+                                    <p class="testi-desc text-center">Zomato</p>
                                 </div>
                                 <div class="testi-item">
                                     <i class="testi-icon fa fa-3x fa-quote-left"></i>
                                     <p class="testi-text">The taste is awesome I don't know if someone says needs
                                         improvement its all depends on everyone's choice and tastebuds. I found it awesome
                                         hygienic and well packaged. 5 Starts for that</p>
-                                    <p class="testi-author">Puneet Tiwari</p>
-                                    <p class="testi-desc">Zomato</p>
+                                    <p class="testi-author text-center">Puneet Tiwari</p>
+                                    <p class="testi-desc text-center">Zomato</p>
                                 </div>
                                 <div class="testi-item">
                                     <i class="testi-icon fa fa-3x fa-quote-left"></i>
-                                    <p class="testi-text">Hummus was delicious, packaging was great. Fresh & healthy food!
+                                    <p class="testi-text ">Hummus was delicious, packaging was great. Fresh & healthy food!
                                         10/10</p>
-                                    <p class="testi-author">Akash Idnani</p>
-                                    <p class="testi-desc">Zomato</p>
+                                    <p class="testi-author text-center">Akash Idnani</p>
+                                    <p class="testi-desc text-center">Zomato</p>
                                 </div>
                                 <div class="testi-item">
                                     <i class="testi-icon fa fa-3x fa-quote-left"></i>
                                     <p class="testi-text">Probably the best Hummus and Falafel I’ve had in Bhopal! Their
                                         entire menu circling around Lebanese cuisine is definitely worth trying!</p>
-                                    <p class="testi-author">Arun Babu Thomas</p>
-                                    <p class="testi-desc">Zomato</p>
+                                    <p class="testi-author text-center">Arun Babu Thomas</p>
+                                    <p class="testi-desc text-center">Zomato</p>
                                 </div>
                             </div>
                             <!-- End of Testimonial -->
@@ -734,7 +743,7 @@
                                     <img class="img-fluid" src="img/Founder.jpg" alt="">
                                     <div class="team-desc">
                                         <h4 class="mb-0">Anubhav Khare</h4>
-                                        <p class="mb-1">Founder</p>
+                                        <p class="mb-1 text-center">Founder</p>
                                         <ul class="list-inline mb-0 team-social-links">
                                             <li class="list-inline-item">
                                                 <a href="https://www.facebook.com/nickykhare">
