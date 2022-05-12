@@ -703,5 +703,7 @@ a:hover {
       height: 500px;
    }
 }
-
+.header_image {
+   transition: all 0.2s ease-in-out;
+}
 /*=====  End of RESPONSIVE  ======*/
