@@ -1,12 +1,9 @@
 
 TITLE: 
-Resto - 100% Fully Responsive HTML5 Bootstrap 4 Template for Restaurants
+Website for the Restaurent Hummust Nest India under Healthy monk Foods Inc.
 
 AUTHOR:
-DESIGNED & DEVELOPED by GetTemplates.co and FreeHTML5.co
-
-Websites: https://gettemplates.co https://freehtml5.co/
-
+DESIGNED & DEVELOPED by Vaibhav Tiwari
 
 CREDITS:
 
